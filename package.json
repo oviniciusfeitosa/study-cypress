@@ -1,0 +1,13 @@
+{
+  "name": "study-cypress",
+  "version": "0.0.0",
+  "description": "Study case of Cypress",
+  "main": "index.js",
+  "repository": "https://github.com/vinnyfs89/study-cypress",
+  "author": "vinnyfs89 <viniciusfesil@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "cypress": "^5.0.0"
+  }
+}

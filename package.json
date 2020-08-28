@@ -13,6 +13,10 @@
     "eslint-plugin-cypress": "^2.11.1"
   },
   "scripts": {
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "checkin1": "cypress run --spec cypress/integration/checkin.js",
+    "checkin2": "cypress run --spec cypress/integration/checkin_2.js",
+    "checkout1": "cypress run --spec cypress/integration/checkout.js",
+    "checkout2": "cypress run --spec cypress/integration/checkout_2.js"
   }
 }

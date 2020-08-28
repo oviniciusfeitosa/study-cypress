@@ -8,6 +8,11 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "cypress": "^5.0.0"
+    "cypress": "^5.0.0",
+    "eslint-plugin-chai-friendly": "^0.6.0",
+    "eslint-plugin-cypress": "^2.11.1"
+  },
+  "scripts": {
+    "cypress:open": "cypress open"
   }
 }
